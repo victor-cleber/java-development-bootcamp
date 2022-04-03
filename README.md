@@ -55,7 +55,7 @@ public class Order {
 }
 ```
 
-> > Create a Main program
+> Create a Main program
 
 ```
 # vim src/com/dio/MyFirstProgram.java
