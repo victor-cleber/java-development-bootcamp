@@ -4,13 +4,13 @@
 
 ## Prepare
 
-**Install curl**
+> Install curl
 ```
 sudo apt-get install curl
 
 curl --version
 ```
- **Install Java Version Mananger**
+ > Install Java Version Mananger
 
 ```
 curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
