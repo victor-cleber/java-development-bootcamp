@@ -1,6 +1,6 @@
 # 🎓  My First Program
 
-**MyFirstProgram** is a basic example of using java to develop your programs.
+**src/com/dio/MyFirstProgram.java** is a basic example of using java to develop your programs.
 
 ## Preparation
 
