@@ -1,8 +1,8 @@
 # 🎓  My First Program
 
-**src/com/dio/MyFirstProgram.java** is a basic example of using java to develop your programs.
+**src/com/dio/MyFirstProgram.java** is a basic example of using Java to develop your programs.
 
-## Preparation
+## Prepare
 
 **Install curl**
 ```
@@ -25,14 +25,14 @@ jabba use openjdk@1.11
 java --version
 ```
 
-## Coding
+## Code 
 
-> Create a folder structure
+> Create a folder structure 
 ```
 src/com/dio/base/
 ```
 
-> Order
+> Create an Order class
 ```
 # vim src/com/dio/base/Order.java
 
@@ -55,7 +55,7 @@ public class Order {
 }
 ```
 
-> Main program
+> > Create a Main program
 
 ```
 # vim src/com/dio/MyFirstProgram.java
@@ -72,8 +72,7 @@ public class MyFirstProgram{
 }
 ```
 
-
-## Execution
+## Execute
 ```
 javac -d myFirstProgram/ -sourcepath src/ src/com/dio/MyFirstProgram.java
 
@@ -81,7 +80,6 @@ cd myFirstProgram
 
 java com.dio.MyFirstProgram
 ```
-
 
 # 🎓  What is OOP?
 
