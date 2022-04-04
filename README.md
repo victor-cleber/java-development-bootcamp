@@ -38,19 +38,28 @@ src/com/dio/base/
 
 package com.dio.base;
 
+import java.math.BigDecimal;
+
 public class Order {
-
+                
         private final String code;
+        private final BigDecimal totalValue;
 
-        public Order (String code){
+        public Order (String code, BigDecimal totalValue){
                 this.code = code;
+                this.totalValue = totalValue;
         }
-
+        
         @Override
         public String toString() {
                 return "Order=[" +
                         "code='" + code + "'" +
+                        "fees=$'" + calculateFee() + "'" +
                         "]";
+        }
+
+        public BigDecimal calculateFee(){
+                return this.totalValue.multiply(new BigDecimal("8.99"));
         }
 }
 ```
@@ -66,7 +75,7 @@ import com.dio.base.Order;
 
 public class MyFirstProgram{
         public static void main(String[] args){
-                final Order order = new Order("code1234");
+                final Order order = new Order("code1234", 540);
                 System.out.println(order);
         }
 }
@@ -116,6 +125,9 @@ catch           extends         instance of     public          throws
 char            false           int             return          transient
 class           final           interface       short           true
 const           finally         long            static          try
+
+
+
 
 ## References
 
