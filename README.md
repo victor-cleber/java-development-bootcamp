@@ -147,5 +147,67 @@ They are four types of Java access modifiers:
 **Constructors** define how a class will be buit
 **Common** - defined by the business rules
 
+## Java Conditions and If Statements
+Java supports the usual logical conditions from mathematics:
+
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+Equal to a == b
+Not Equal to: a != b
+
+**if else** 
+```
+int time = 22;
+if (time < 10) {
+  System.out.println("Good morning.");
+} else if (time < 20) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+// Outputs "Good evening."
+```
+**switch case**
+```
+int day = 4;
+switch (day) {
+  case 1:
+    System.out.println("Monday");
+    break;
+  case 2:
+    System.out.println("Tuesday");
+    break;
+  case 3:
+    System.out.println("Wednesday");
+    break;
+  case 4:
+    System.out.println("Thursday");
+    break;
+  case 5:
+    System.out.println("Friday");
+    break;
+  case 6:
+    System.out.println("Saturday");
+    break;
+  case 7:
+    System.out.println("Sunday");
+    break;
+}
+// Outputs "Thursday" (day 4)
+```
+
+## Java Loop
+**do** 
+
+**while**
+
+**for**
+
+**enhanced for**
+
+
 ## References
 https://github.com/shyiko/jabba
+https://www.w3schools.com/java/default.asp
