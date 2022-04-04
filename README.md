@@ -107,10 +107,10 @@ Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetitio
 
 ## Four Principles of OOP
 
-- **Inheritance** child classes inherit data and behaviors from parent class
-- **Encapsulation** containing information in an object, exposing only selected information
-- **Abstraction** only exposing high level public methods for accessing an object
-- **Polymorphism** many methods can do the same task
+- **Inheritance** child classes inherit data and behaviors from parent class.
+- **Encapsulation** containing information in an object, exposing only selected information.
+- **Abstraction** only exposing high level public methods for accessing an object.
+- **Polymorphism** many methods can do the same task.
 
 ## Blocks of OOP
 - Classes
@@ -120,7 +120,7 @@ Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetitio
 
 ## Java Key Words
 abstract<br>        continue        float           native          strictfp        void
-assert<br>          default         for             new             super           volatile
+assert          default         for             new             super           volatile
 boolean         do              goto            null            switch          while
 break           double          if              package         syncronized
 byte            else            implements      private         this
@@ -135,17 +135,17 @@ Java has two types of modifiers: access modifiers and non-access modifiers.
 
 Whith the access modifiers we can specify the accessibility or scope of a field, method, constructor, or class. We have a power to change the access level of fields, constructors, methods, and class by applying the access modifier on it.
 
-They are four types of Java access modifiers:<br>
-**Private**: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.<br>
-**Default**: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.<br>
-**Protected**: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.<br>
-**Public**: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.<br>
+They are four types of Java access modifiers:
+- **Private**: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+- **Default**: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+- **Protected**: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+- **Public**: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
 
 > There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc. (https://www.javatpoint.com/access-modifiers)
 
 ## Methods
-**Constructors** define how a class will be buit
-**Common** - defined by the business rules
+**Constructors** define how a class will be buit.<br>
+**Common** - defined by the business rules.
 
 ## Java Conditions and If Statements
 Java supports the usual logical conditions from mathematics:
