@@ -269,6 +269,10 @@ public void printItems(){
 - **@throws** describes the kinds of exceptions that can be thrown by a method.
 - **@version** describes a version of a class or a method.
 
+```
+ javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio
+```
+
 ## References
 - https://github.com/shyiko/jabba
 - https://www.w3schools.com/java/default.asp
