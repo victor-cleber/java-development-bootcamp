@@ -59,7 +59,11 @@ public class Order {
         }
 
         public BigDecimal calculateFee(){
-                return this.totalValue.multiply(new BigDecimal("8.99"));
+                if (this.totalValue > 100){
+                        return this.totalValue.multiply(new BigDecimal("0.99"));
+                }else{
+                        return this.totalValue;
+                }                
         }
 }
 ```
@@ -140,6 +144,20 @@ They are four types of Java access modifiers:
 **Public**: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
 
 > There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc. (https://www.javatpoint.com/access-modifiers)
+
+
+
+## Method
+**Constructors** define how a class will be buit
+**Common** - defined by the business rules
+5. Estruturas de condicao
+Responsavel por desviar o codigo dependendo da condicao
+if else
+switch case
+
+6. Estruturas de repeticao
+
+
 
 ## References
 
