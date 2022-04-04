@@ -234,6 +234,13 @@ public void printItens(){
 
 **for**
 ```
+private String[] itens;
+
+public void printItens(){
+        for (int i = 0; i < itens.lenght; i++) {
+                System.out.println(itens[i]);                
+        }
+}
 ```
 
 **enhanced for**
