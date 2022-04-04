@@ -43,7 +43,7 @@ import java.math.BigDecimal;
 public class Order {
                 
         private final String code;
-        private final BigDecimal totalValue;
+        private final BigDecimal totalValue;        
 
         public Order (String code, BigDecimal totalValue){
                 this.code = code;
@@ -65,6 +65,7 @@ public class Order {
                         return this.totalValue;
                 }                
         }
+        
 }
 ```
 
@@ -210,6 +211,15 @@ switch (day) {
 
 **while**
 ```
+private String[] itens;
+
+public void printItens(){
+        int i = 0;
+
+        while (i < itens.lenght){
+                System.out.println(itens[i]);
+        }
+}
 ```
 
 **for**
