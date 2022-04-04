@@ -207,44 +207,52 @@ switch (day) {
 ## Java Loop
 **do**
 ```
-private String[] itens;
+private String[] items;
 
-public void printItens(){
+public void printItems(){
         int i = 0;
 
         do {
-                System.out.println(itens[i]);
+                System.out.println(items[i]);
                 i++;
-        }while (i < itens.lenght)
+        }while (i < items.lenght)
 }
 ```
 
 **while**
 ```
-private String[] itens;
+private String[] items;
 
-public void printItens(){
+public void printItems(){
         int i = 0;
 
-        while (i < itens.lenght){
-                System.out.println(itens[i]);
+        while (i < items.lenght){
+                System.out.println(items[i]);
         }
 }
 ```
 
 **for**
 ```
-private String[] itens;
+private String[] items;
 
-public void printItens(){
-        for (int i = 0; i < itens.lenght; i++) {
-                System.out.println(itens[i]);                
+public void printitems(){
+        for (int i = 0; i < items.lenght; i++) {
+                System.out.println(items[i]);                
         }
 }
 ```
 
 **enhanced for**
+
 ```
+private String[] items;
+
+public void printItems(){
+        for (String item: items) {
+                System.out.println(item);                
+        }
+}
 ```
 
 ## References
