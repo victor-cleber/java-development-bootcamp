@@ -145,7 +145,12 @@ They are four types of Java access modifiers:
 
 ## Methods
 - **Constructors** define how a class will be buit.
+```
+```
+
 - **Common** are methods defined by the business rules.
+```
+```
 
 ## Java Conditions and If Statements
 Java supports the usual logical conditions from mathematics:
@@ -199,14 +204,21 @@ switch (day) {
 ```
 
 ## Java Loop
-**do** 
+**do**
+```
+```
 
 **while**
+```
+```
 
 **for**
+```
+```
 
 **enhanced for**
-
+```
+```
 
 ## References
 - https://github.com/shyiko/jabba
