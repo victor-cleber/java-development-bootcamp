@@ -207,6 +207,16 @@ switch (day) {
 ## Java Loop
 **do**
 ```
+private String[] itens;
+
+public void printItens(){
+        int i = 0;
+
+        do {
+                System.out.println(itens[i]);
+                i++;
+        }while (i < itens.lenght)
+}
 ```
 
 **while**
