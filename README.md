@@ -130,14 +130,12 @@ char            false           int             return          transient
 class           final           interface       short           true
 const           finally         long            static          try
 
-
 ## Acesss modifiers
 Java has two types of modifiers: access modifiers and non-access modifiers.
 
 Whith the access modifiers we can specify the accessibility or scope of a field, method, constructor, or class. We have a power to change the access level of fields, constructors, methods, and class by applying the access modifier on it.
 
 They are four types of Java access modifiers:
-
 **Private**: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
 **Default**: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
 **Protected**: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
@@ -145,20 +143,9 @@ They are four types of Java access modifiers:
 
 > There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc. (https://www.javatpoint.com/access-modifiers)
 
-
-
-## Method
+## Methods
 **Constructors** define how a class will be buit
 **Common** - defined by the business rules
-5. Estruturas de condicao
-Responsavel por desviar o codigo dependendo da condicao
-if else
-switch case
-
-6. Estruturas de repeticao
-
-
 
 ## References
-
 https://github.com/shyiko/jabba
