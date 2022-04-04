@@ -105,8 +105,17 @@ Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetitio
 - Methods
 - Attributes
 
-## Java OOP
-
+## Java Key Words
+abstract        continue        float           native          strictfp        void
+assert          default         for             new             super           volatile
+boolean         do              goto            null            switch          while
+break           double          if              package         syncronized
+byte            else            implements      private         this
+case            enum            import          protected       throw
+catch           extends         instance of     public          throws
+char            false           int             return          transient
+class           final           interface       short           true
+const           finally         long            static          try
 
 ## References
 
