@@ -144,18 +144,18 @@ They are four types of Java access modifiers:
 > There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc. (https://www.javatpoint.com/access-modifiers)
 
 ## Methods
-**Constructors** define how a class will be buit.<br>
-**Common** - defined by the business rules.
+- **Constructors** define how a class will be buit.
+- **Common** are methods defined by the business rules.
 
 ## Java Conditions and If Statements
 Java supports the usual logical conditions from mathematics:
 
-Less than: a < b
-Less than or equal to: a <= b
-Greater than: a > b
-Greater than or equal to: a >= b
-Equal to a == b
-Not Equal to: a != b
+- Less than: a < b
+- Less than or equal to: a <= b
+- Greater than: a > b
+- Greater than or equal to: a >= b
+- Equal to a == b
+- Not Equal to: a != b
 
 **if else** 
 ```
