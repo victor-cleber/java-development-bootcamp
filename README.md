@@ -209,5 +209,5 @@ switch (day) {
 
 
 ## References
-https://github.com/shyiko/jabba
-https://www.w3schools.com/java/default.asp
+- https://github.com/shyiko/jabba
+- https://www.w3schools.com/java/default.asp
