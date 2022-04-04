@@ -59,6 +59,9 @@ public class Order {
         }
 
         public BigDecimal calculateFee(){
+                if (this.totalValue.signum() < 0){
+                        throw new RuntimeException("The order can not have values less than 0");
+                }
                 if (this.totalValue > 100){
                         return this.totalValue.multiply(new BigDecimal("0.99"));
                 }else{
@@ -254,6 +257,17 @@ public void printItems(){
         }
 }
 ```
+
+# Java Doc
+- **@author** describes the author of a class or method. 
+- **@deprecated** identifies obsoleted classes or methods.
+- **@link** creates a link to local or remote documentation through a URL.
+- **@param** describes a parameter used in a method.
+- **@return** describes a return of a method.
+- **@see** associates with other classes or methods.
+- **@since** describes when a method or a class was added.
+- **@throws** describes the kinds of exceptions that can be thrown by a method.
+- **@version** describes a version of a class or a method.
 
 ## References
 - https://github.com/shyiko/jabba
